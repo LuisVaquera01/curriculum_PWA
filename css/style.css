@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #ecf0f1;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bio {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.bio h3 {
+    margin-top: 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.experience ul, .skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience ul li, .skills ul li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
